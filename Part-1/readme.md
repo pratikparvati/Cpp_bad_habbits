@@ -1,4 +1,4 @@
-#C++ bad habits - How to make mistakes! 
+# C++ bad habits - How to make mistakes! 
 
 When you study programming language, learn to make mistake. Learn to program means to understand what you should not do and how you recognize a mistake and how to debug it. Writing a program is the easy part; learning to program means to find a bug if a program seems to be correct but fails from time to time in an arbitrary way. Then you need to understand what mistake leads into this behavior and how to debug this bug. Therefore you should know as much mistakes as possible.
 
@@ -271,6 +271,3 @@ Never redefine an inherited default parameter value, because default parameter v
 > **_NOTE:_** Parameters in an overriding virtual function shall either use the same default arguments as the function they override, or else shall not specify any default arguments
 
 Always use inheritance and virtual functions carefully, commit mistakes but learn from them. That's all I have in this blog, I will keep writing similar points and my learnings in my next coming blogs.
-
-Thanks for reading,
-Pratik
