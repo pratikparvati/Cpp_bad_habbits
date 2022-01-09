@@ -10,7 +10,7 @@ So the first mistake you should avoid is to avoid mistakes while being a C++ beg
 
 In C++, two functions can have the same name if the number and/or type of arguments passed is different. These functions having the same name but different arguments are known as overloaded function. Overriding means same method name and same parameter occur in different class that has inheritance relationship. Before we get to the problem, lets understand scoping rule in C++.
 
-#### Scoping 
+### Scoping 
 
 The basic to complex scoping rules are explained at cppreference site [here](https://en.cppreference.com/w/cpp/language/scope). The inner scope declarations hide the declarations in outer scope regardless of the type of language elements(object, type, function etc).
 
@@ -40,7 +40,7 @@ int main()
 ```
 Since the members of `class Base` are visible in `class Derived`, a declaration of an object named x in  `class Derived` will hide `char x` in `class Base`.
 
-##### why name hiding was actually designed into C++?
+#### why name hiding was actually designed into C++?
 
 You probably know that in C++ overload resolution works by choosing the best function from the set of candidates; this is done by matching the types of arguments to the types of parameters. Hence, adding new functions to a set of previously existing ones might result in a rather drastic shift in overload resolution results.
 
